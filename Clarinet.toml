@@ -1,0 +1,19 @@
+[project]
+name = "easystack"
+description = "EasyStack – Ascent demo: simulated stacking + rewards"
+authors = ["EasyStack Team"]
+telemetry = false
+
+[contracts.mock-token]
+path = "contracts/mock-token.clar"
+clarity_version = 3
+epoch = "latest"
+
+[contracts.easystack]
+path = "contracts/easystack.clar"
+clarity_version = 3
+epoch = "latest"
+depends_on = ["mock-token"]
+
+[[project.requirements]]
+contract_id = "SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard"

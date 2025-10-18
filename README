@@ -1,0 +1,128 @@
+🌐 EasyStack
+Bringing Stacks to Everyone — Simple, Social, and Seamless
+EasyStack
+
+
+🚀 Overview
+
+EasyStack is a new kind of staking & engagement platform built on the Stacks blockchain — designed to make Web3 accessible to everyone, especially Web2 users.
+
+At its core, EasyStack lets users stake tokens, earn rewards, and unlock “quest points” for community and ecosystem participation — all through a simple, wallet-free experience powered by embedded wallets (via Turnkey).
+
+Think of it as the foundation for mainstream Stacks onboarding — a bridge between traditional users who want simplicity, and the Stacks ecosystem that values decentralization.
+
+🧱 The Foundation — What We’ve Built So Far
+Core Contract: easystack.clar
+
+The current version of EasyStack introduces the on-chain foundation:
+
+✅ User registration & profile mapping
+
+✅ Token staking & tracking (STX)
+
+✅ Reward distribution logic
+
+✅ Claim intervals using block-height
+
+✅ Quest point mechanics for early engagement
+
+✅ Claim rate variables & dynamic reward adjustments
+
+The smart contract is fully modular, meaning future upgrades like NFTs, social badges, or fiat gateways can connect without breaking current logic.
+
+Token Contract: easy-token.clar
+
+Implements a simple fungible token with mint/burn logic.
+
+Used to issue rewards and incentives to stakers.
+
+Designed to be extended into a utility/reputation token.
+
+💡 Vision — Where We’re Headed
+
+EasyStack isn’t just a staking platform — it’s the base layer of a social-financial network on Stacks.
+
+🌍 Our Goals
+
+Seamless Onboarding:
+Users can sign in with email or social login — no wallet setup or seed phrases needed, thanks to Turnkey Embedded Wallets.
+
+Fiat-to-STX Onramp:
+Enable users to pay or top-up in fiat (USD, NGN, etc.) using cards or bank transfers, abstracting away crypto complexity.
+
+Gamified Ecosystem:
+Introduce quests, achievements, and XP systems tied to on-chain actions (staking, referrals, project contributions).
+
+Web2 + Web3 Integration:
+Blend familiar Web2 UX (Next.js frontend, Supabase backend, smooth auth) with Stacks smart contract logic underneath.
+
+Community-Centric Growth:
+Users don’t just stake — they grow their influence in the Stacks community via transparent, measurable engagement.
+
+🧩 Tech Stack
+Layer	Technology	Description
+Smart Contracts	Clarity (Stacks)	On-chain staking, reward, and quest logic
+Frontend	Next.js, TailwindCSS	Modern, performant UI with easy user flow
+Wallet/Auth	Turnkey Embedded Wallets	Seamless Web2-style onboarding
+Backend / DB	Supabase	User profiles, off-chain metadata, API routes
+Deployment	Vercel	Fast CI/CD for frontend and API hosting
+Blockchain	Stacks (secured by Bitcoin)	Decentralized settlement layer
+🧭 Roadmap
+Phase	Stage	Description
+🏗️ Phase 1 — Foundation	✅ Completed	Core staking & rewards contract, token deployment, Clarinet setup
+🔗 Phase 2 — Embedded Wallet Integration	🚧 In Progress	Turnkey wallet connection, email/social login
+💳 Phase 3 — Fiat Gateway	⏳ Upcoming	Pay in fiat → get STX or EasyTokens
+🎮 Phase 4 — Gamified Quests	Planned	On-chain quest rewards, leaderboard, and NFT badges
+🪩 Phase 5 — Public Launch	Planned	Open registration, community staking pools, governance
+🧰 Local Setup
+# Clone repo
+git clone https://github.com/yourusername/easystack.git
+cd easystack
+
+# Install Clarinet
+brew install clarinet
+
+# Check contracts
+clarinet check
+
+# Run tests
+clarinet test
+
+
+Frontend and API integration instructions will be added once the Turnkey auth layer is merged.
+
+🧠 Philosophy
+
+“Web3 will only scale when users stop realizing they’re using Web3.”
+
+EasyStack is built around invisible blockchain UX — users come for the utility, not the technology.
+The mission: make Stacks adoption as easy as signing in with Google or buying coffee with a card.
+
+🤝 Contributing
+
+We welcome contributions from the Stacks and open-source community.
+
+Fork the repo
+
+Create a new branch
+
+Submit a pull request
+
+Please follow conventional commits and include clear PR descriptions.
+
+🧾 License
+
+This project is licensed under the MIT License
+.
+
+💬 Connect
+
+Website: (coming soon)
+
+Twitter: @EasyStackHQ
+
+Stacks Explorer: View Contract
+
+Discord: Invite coming soon
+
+EasyStack — Because Stacking Should Be Simple.
