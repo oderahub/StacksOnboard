@@ -64,7 +64,7 @@ Layer	Technology	Description
 Smart Contracts	Clarity (Stacks)	On-chain staking, reward, and quest logic
 Frontend	Next.js, TailwindCSS	Modern, performant UI with easy user flow
 Wallet/Auth	Turnkey Embedded Wallets	Seamless Web2-style onboarding
-Backend / DB	Supabase	User profiles, off-chain metadata, API routes
+User profiles, off-chain metadata, API routes
 Deployment	Vercel	Fast CI/CD for frontend and API hosting
 Blockchain	Stacks (secured by Bitcoin)	Decentralized settlement layer
 🧭 Roadmap
@@ -75,9 +75,7 @@ Phase	Stage	Description
 🎮 Phase 4 — Gamified Quests	Planned	On-chain quest rewards, leaderboard, and NFT badges
 🪩 Phase 5 — Public Launch	Planned	Open registration, community staking pools, governance
 🧰 Local Setup
-# Clone repo
-git clone https://github.com/yourusername/easystack.git
-cd easystack
+
 
 # Install Clarinet
 brew install clarinet
